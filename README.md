@@ -1,5 +1,13 @@
 # Fastify Zod Pattern
 
+## First step
+
+```pnpm install fastify @fastify/cors fastify-type-provider-zod @fastify/swagger @fastify/swagger-ui zod```
+
+```pnpm install typescript @types/node tsx @biomejs/biome  -D``` 
+
+## Features
+
 This project is a template for setting up a Fastify server with the following features:
 
 - **Fastify with Zod Type Provider**: Utilize Zod for runtime type validation and schema definition within Fastify, enabling robust type-checking and validation.
