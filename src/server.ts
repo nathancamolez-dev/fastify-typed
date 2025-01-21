@@ -22,7 +22,7 @@ app.register(fastifyCors, {
 app.register(fastifySwagger, {
   openapi: {
     info: {
-      title: 'Fastify API',
+      title: 'Fastify API v1.0',
       version: '1.0.0',
     },
   },
