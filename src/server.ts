@@ -1,13 +1,13 @@
-import { fastify } from 'fastify'
 import { fastifyCors } from '@fastify/cors'
-import {
-  validatorCompiler,
-  serializerCompiler,
-  type ZodTypeProvider,
-  jsonSchemaTransform,
-} from 'fastify-type-provider-zod'
 import fastifySwagger from '@fastify/swagger'
 import fastifySwaggerUi from '@fastify/swagger-ui'
+import { fastify } from 'fastify'
+import {
+  type ZodTypeProvider,
+  jsonSchemaTransform,
+  serializerCompiler,
+  validatorCompiler,
+} from 'fastify-type-provider-zod'
 import { routes } from './routes'
 
 const app = fastify().withTypeProvider<ZodTypeProvider>()
