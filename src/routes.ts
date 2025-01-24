@@ -1,6 +1,6 @@
-import type { FastifyTypeInstance } from './types'
-import { z } from 'zod'
 import { randomUUID } from 'node:crypto'
+import { z } from 'zod'
+import type { FastifyTypeInstance } from './types'
 
 interface User {
   id: string
