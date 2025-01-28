@@ -2,7 +2,7 @@
 
 ## First step
 
-<<<<<<< HEAD
+
 To install dependencies, run:
 
 ``` npm install```
@@ -10,7 +10,7 @@ To install dependencies, run:
 ```pnpm install fastify @fastify/cors fastify-type-provider-zod @fastify/swagger @fastify/swagger-ui zod```
 
 ```pnpm install typescript @types/node tsx @biomejs/biome  -D``` 
->>>>>>> b837c7e (feat: readme)
+
 
 ## Features
 
